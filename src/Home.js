@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
-import logo from './img/logo.png'
+import logo from './img/logo.png';
 
 function Home() {
   return (
-    <div className='home'>
+    <div className=' home'>
         <div className='home__bg'>
             <div className=' header d__flex aling__items__center pxy__30'>
                 <div logo className='logo'>
@@ -22,7 +22,7 @@ function Home() {
                 </div>
             </div>
             {/* HOME CONTENT */}
-            <div className='container'></div>
+            <div className='container'>
             <div className=' home__content'>
                 <div className=' home__meta'>
                     <h1 className='home__text pz__10'>
@@ -38,7 +38,7 @@ function Home() {
                         based in USA.
                     </h4>
                     
-             
+                    </div>
                 </div>
             </div>
         </div>
