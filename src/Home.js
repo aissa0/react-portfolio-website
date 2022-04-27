@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-
+import logo from './img/logo.png'
 
 function Home() {
   return (
@@ -22,27 +22,29 @@ function Home() {
                 </div>
             </div>
             {/* HOME CONTENT */}
-            <div className='container'>
-            <div className=' home__content'>
-                <div className=' home__meta'>
-                    <h1 className='home__text pz__10'>
-                        WELCOME TO MY WORLD
-                    </h1>
-                    <h2 className='home__text pz__10'>
-                        Hi, I'm Ali Issa
-                    </h2>
-                    <h3 className='home__text sweet pz__10'>
-                        JS Developer.
-                    </h3>
-                    <h4 className='home__text pz__10'>
-                        based in USA.
-                    </h4>
-                    
-                    </div>
+            
+                <div className=' home__content'>
+                    <div className='container'>
+                        <div className=' home__meta'>
+                            <h1 className='home__text pz__10'>
+                                WELCOME TO MY WORLD
+                            </h1>
+                            <h2 className='home__text pz__10'>
+                                Hi, I'm Ali Issa
+                            </h2>
+                            <h3 className='home__text sweet pz__10'>
+                                JS Developer.
+                            </h3>
+                            <h4 className='home__text pz__10'>
+                                based in USA.
+                            </h4>
+    
+                        </div>
                 </div>
             </div>
         </div>
     </div>
+    
   )
 }
 
